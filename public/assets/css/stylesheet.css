@@ -62,9 +62,10 @@ header .user {
 .item-header {
   display: none; }
 
-.ticket-block .hightlighted {
+.ticket-block :hover {
   color: #3751FF;
-  border-color: #3751FF; }
+  border-color: #3751FF; ;
+  }
 
 .badge {
   font-weight: 700;
