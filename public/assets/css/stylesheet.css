@@ -1,3 +1,4 @@
+
 main {
   font-family: 'Mulish';
   font-style: normal;
@@ -10,40 +11,41 @@ nav {
   background-color: #363740;
   width: 30%;
   max-width: 255px; }
-  nav .logo {
-    padding: 37px 18px 59px 32px; }
-  nav .nav-tiltle {
-    font-weight: 700;
-    font-size: 19px;
-    line-height: 24px;
-    letter-spacing: 0.4px;
-    color: #9FA2B4;
-    opacity: 0.7; }
 
-  nav hr {
-    height: 0px;
-    left: 0px;
-    right: 0px;
-    top: calc(50% - 0px/2);
-    border: 1px solid #DFE0EB;
-    opacity: 0.1; }
+nav .logo {
+  padding: 37px 18px 59px 32px; }
+nav .nav-tiltle {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #9FA2B4;
+  opacity: 0.7; }
 
-  nav .nav-link {
-    color: #A4A6B3;
-    padding: 18px 32px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.2px; }
+nav hr {
+  height: 0px;
+  left: 0px;
+  right: 0px;
+  top: calc(50% - 0px/2);
+  border: 1px solid #DFE0EB;
+  opacity: 0.1; }
 
-  nav .nav-pills .nav-link.active, nav .nav-pills .show > .nav-link {
-    color: #fff;
-    background-color: #434449; }
+nav .nav-link {
+  color: #A4A6B3;
+  padding: 18px 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px; }
 
-  nav .bi {
-    vertical-align: -.125em;
-    pointer-events: none;
-    fill: currentColor; }
+nav .nav-pills .nav-link.active, nav .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #434449; }
+
+nav .bi {
+  vertical-align: -.125em;
+  pointer-events: none;
+  fill: currentColor; }
 
 header .heading {
   font-weight: 700;
@@ -75,6 +77,16 @@ header .user {
   align-items: center;
   text-align: center;
   letter-spacing: 0.5px; }
+
+.graph .graph-legend {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1px; }
+
+.graph .graph-img {
+  max-width: 686px;
+  width: 80vw; }
 
 /* Mobile */
 @media only screen and (max-width: 768px) {
